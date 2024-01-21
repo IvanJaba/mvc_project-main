@@ -1,0 +1,15 @@
+{
+    "name": "ivanbolotov/mvc_project1-main",
+    "authors": [
+        {
+            "name": "Ivan Bolotov",
+            "email": "bolotov_ii@edu.surgu.ru"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Framework\\": "Framework"
+        }
+    }
+}
