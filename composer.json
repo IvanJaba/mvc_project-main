@@ -1,15 +1,22 @@
 {
-    "name": "ivanbolotov/mvc_project1-main",
+    "name": "ivanbolotov/mvc_project_4",
+    "autoload": {
+        "psr-4": {
+            "Framework\\": "Framework",
+            "App\\": "App"
+        },
+        "files": [
+            "App/routes.php"
+        ]
+    },
     "authors": [
         {
             "name": "Ivan Bolotov",
             "email": "bolotov_ii@edu.surgu.ru"
         }
     ],
-    "require": {},
-    "autoload": {
-        "psr-4": {
-            "Framework\\": "Framework"
-        }
+    "require": {
+        "vlucas/phpdotenv": "^5.6",
+        "ext-pdo": "*"
     }
 }
